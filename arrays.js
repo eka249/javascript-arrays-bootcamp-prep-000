@@ -4,7 +4,7 @@ var a = ['one', 'two']
 var b= 'three'
 
 function addElementToBeginningOfArray(a, b){
-  return [... b, a];
+  return [b, ...a];
 }
 
 function destructivelyAddElementToBeginningOfArray(a,b){
