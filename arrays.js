@@ -8,8 +8,8 @@ function addElementToBeginningOfArray(a, b){
 }
 
 function destructivelyAddElementToBeginningOfArray(a,b){
-  a[1]=b
-  return a
+  a[1]=b;
+  return a;
 }
 
 function addElementToEndOfArray(a, b){
